@@ -24,8 +24,9 @@ function sendWhatsAppMessage() {
     window.open(whatsappURL, "_blank");
 
 }
+
 function toggleMenu() {
-    let nav = document.querySelector(".navbar");
+    let nav = document.querySelector(".nav-links");
     let menuIcon = document.querySelector(".menu-icon");
 
     nav.classList.toggle("show");
