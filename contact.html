@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - GLAMOUR'S FASHION</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="logo">GLAMOUR'S FASHION</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero contact-hero">
+      <h1>Get in Touch</h1>
+      <p>
+        We’d love to hear from you! Reach out for inquiries, collaborations, or
+        support.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>
+            <strong>Address:</strong>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=75+amodu crescent,+ishashi pipeline akute,+Ogun,+Nigeria"
+              target="_blank"
+            >
+              GLAMOUR STORE, Lagos, Nigeria
+            </a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:ademideadeyemo2920@gmail.com">
+              support@glamoursfashion.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+234 902 473 4472"> +234 902 473 4472 </a>
+          </p>
+          <div class="social-links">
+            <a href="https://facebook.com/yourprofile" target="_blank">
+              <img src="facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank">
+              <img src="instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+              <img src="pinterest.png" alt="Pinterest" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="button" onclick="sendWhatsAppMessage()">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 GLAMOUR'S FASHION</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
