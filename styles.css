@@ -104,27 +104,15 @@ footer {
 }
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
-    .menu-icon {
-        display: block;
+    .navbar {
+        width: 400px;
     }
 
-    .navbar ul li {
-        display: none;
-        flex-direction: column;
-        background-color: #1a237e;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
+    .navbar ul li a {
+        font-size: 10px;
     }
-}
 
-.navbar.show {
-    display: flex;
-}
 
-.navbar {
-    margin: 10px 0;
+
 }
+    
