@@ -25,6 +25,15 @@ function sendWhatsAppMessage() {
 
 }
 function toggleMenu() {
-    let nav = document.querySelector(".nav-links");
+    let nav = document.querySelector(".navbar");
+    let menuIcon = document.querySelector(".menu-icon");
+
     nav.classList.toggle("show");
+
+    // Change the menu icon to "X" when opened
+    if (nav.classList.contains("show")) {
+        menuIcon.innerHTML = "✖";
+    } else {
+        menuIcon.innerHTML = "☰";
+    }
 }

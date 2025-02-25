@@ -108,7 +108,7 @@ footer {
         display: block;
     }
 
-    .navbar ul li a {
+    .navbar ul li {
         display: none;
         flex-direction: column;
         background-color: #1a237e;
@@ -121,10 +121,10 @@ footer {
     }
 }
 
-.nav-links.show {
+.navbar.show {
     display: flex;
 }
 
-.nav-links li {
+.navbar {
     margin: 10px 0;
 }
