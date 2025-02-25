@@ -108,7 +108,7 @@ footer {
         display: block;
     }
 
-    .nav-links {
+    .navbar ul li a {
         display: none;
         flex-direction: column;
         background-color: #1a237e;
