@@ -26,7 +26,7 @@ function sendWhatsAppMessage() {
 }
 
 function toggleMenu() {
-    let nav = document.querySelector(".nav-links");
+    let nav = document.querySelector(".navbar ul");
     let menuIcon = document.querySelector(".menu-icon");
 
     nav.classList.toggle("show");
