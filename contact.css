@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
-    background-color: #ffffff;
+    background: url(glamm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #000;
 }
 
@@ -84,13 +86,17 @@ nav ul li a.active {
 .contact-info h2, .contact-form h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .contact-info p {
     font-size: 18px;
     line-height: 1.6;
+    color: #ffffff;
 }
-
+.contact-info p a:hover {
+    color: #ffffff;
+}
 .social-links {
     margin-top: 15px;
 }

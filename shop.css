@@ -128,7 +128,7 @@ footer {
     .navbar ul { 
         display: none;
         flex-direction: column;
-        background: none;
+        background: #f0e0a1;
         position: absolute;
         top: 60px;
         left: 0;
