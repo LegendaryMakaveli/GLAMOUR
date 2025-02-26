@@ -102,6 +102,8 @@ nav ul li a.active {
     text-align: center;
     padding: 50px;
     background:url(glambaby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .team h2 {
