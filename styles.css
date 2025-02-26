@@ -105,9 +105,13 @@ footer {
 
     .navbar ul li a {
         font-size: 12px;
+        padding: 10px 5px;
     }
 
-
+    .top-bar img {
+        display: none;
+    }
 
 }
+
     

@@ -52,10 +52,11 @@ nav ul li a.active {
 
 /* Hero Section */
 .hero {
-    background: url('owner.jpg') center/cover no-repeat;
+    background: url('yisa.jpg') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 80px 20px;
+    height: 500px;
 }
 
 .hero h1 {
