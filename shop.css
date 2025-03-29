@@ -1,146 +1,145 @@
 /* General Styling */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Playfair Display', serif;
-    background-color: #ffffff;
-    color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  background-color: #ffffff;
+  color: #000;
 }
 
 /* Top Bar */
 .top-bar {
-    background:rgb(64, 64, 238);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
+  background: rgb(64, 64, 238);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
 }
 
 /* Navbar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
 }
 
 .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 .navbar ul li {
-    margin: 0 60px;
+  margin: 0 60px;
 }
 
 .navbar ul li a {
-    text-decoration: none;
-   color: #ffffffa9;
-    font-size: 16px;
+  text-decoration: none;
+  color: #ffffffa9;
+  font-size: 16px;
 }
 .navbar ul li a:hover {
-    color: rgba(239, 42, 42, 0.765);
+  color: rgba(239, 42, 42, 0.765);
 }
 /* Hero Section */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background: #f5f5f5;
-    background-image: url(heroimage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: #f5f5f5;
+  background-image: url(heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero img {
-    width: 500px;
+  width: 500px;
 }
 .hero-text h2 {
-    font-size: 36px;
-    color: rgb(204, 176, 54);
+  font-size: 36px;
+  color: rgb(204, 176, 54);
 }
 
 .shop-btn {
-    background: red;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 /* Shop Categories */
 .shop-categories {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  justify-content: center;
 }
 
 .category {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .category img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
 }
 .logo2 {
-    width: 50px;
-    position: absolute;
-    left: 20px;
-    box-sizing: border-box;
-    box-shadow: rgba(255, 255, 255, 0.753) 20px 17px 5px 0;
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  box-sizing: border-box;
+  box-shadow: rgba(255, 255, 255, 0.753) 20px 17px 5px 0;
 }
 footer {
-    color: rgb(64, 64, 238);
-    font-style: italic;
-    font-weight: 600;
-    text-align: center;
+  color: rgb(64, 64, 238);
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
 }
 .menu-icon {
-     display: none;
-     background: none;
-     border: none;
-     color: white;
-     font-size: 24px;
-     margin-right: 10px;
-     position: absolute;
-     right: 20px;
-     top: 35px;
-     cursor: pointer;
- 
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .menu-icon {
-        display: block;
-    }
+  .menu-icon {
+    display: block;
+  }
 
-    .navbar ul { 
-        display: none;
-        flex-direction: column;
-        background: rgb(64, 64, 238);
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        padding: 0 0 5px 0;
-    }
-    .navbar img {
-        display: none;
-    }
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    background: rgb(64, 64, 238);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 5px 0;
+  }
+  .navbar img {
+    display: none;
+  }
   .navbar ul.show {
-     display: block;
+    display: block;
   }
 
   .navbar li {
@@ -152,7 +151,7 @@ footer {
     padding: 12px;
   }
 
-  .shop-categories{
+  .shop-categories {
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 0 10px;
@@ -165,5 +164,4 @@ footer {
   .hero img {
     display: none;
   }
-
 }
